@@ -1,0 +1,250 @@
+
+   
+
+
+.container{
+    background-color: rgb(59, 3, 116);
+    width:100%;
+    height:120vh;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+.container1{
+    width: 40%;
+    height: 80vh;
+    
+
+}
+
+.clock{
+    background-image: url("./clock\ image.jpeg");
+    width:34%;
+    height:12vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+}
+
+.whitebox{
+    
+    width:90%;
+    height: 35vh;
+    background-color: white;
+    margin-top: 2vh;
+    border-radius: 5px;
+    justify-content: space-evenly;
+
+}
+
+.box1{ 
+
+    margin-top: 2vh;
+    width:100%;
+    height:20%;
+    display: flex;
+    font-size: 20px;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.box2{
+    width:100%;
+    height:20%;
+    display: flex;
+    font-size: 20px;
+    background-position: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.box3{
+    width:100%;
+    height:20%;
+
+    display: flex;
+    font-size: 20px;
+    background-position: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.division{
+    height: 6vh;
+    width:1px;
+    background-color: blueviolet;
+    margin-left: 50px;
+}
+img{
+
+    width:7%;
+    height:5vh;
+}
+/* 
+.clocktime{
+    width:80px;
+    height:30px;
+} */
+
+
+
+.btn{ 
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 5px;
+    width:40vh;
+    height:8vh;
+    background-image: linear-gradient(to right,  rgb(80, 8, 109) 10%, rgb(224, 77, 168) );
+}
+
+.container2{
+    width: 40%;
+    height: 80vh;
+    justify-content: space-between;
+    
+}
+
+.box4{
+    position: relative;
+    border-radius: 20px;
+    z-index: 3;
+    width:100%;
+    height:12vh;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.time{
+    font-size:25px;
+    margin-top: 3vh;
+ 
+
+}
+
+.hour{
+    width:10%;
+    height: 80%;
+    margin-top: 1vh;
+    text-align: center;
+   
+    color:rgb(224, 24, 231);
+    background-color: rgb(245, 221, 241);
+    border-radius: 5px;
+
+}
+
+.min{
+    
+    width:10%;
+    height: 80%;
+    margin-top: 1vh;
+    color:rgb(224, 24, 231);
+    background-color: rgb(245, 215, 239);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.sec{
+    
+    width:10%;
+    height: 80%;
+    margin-top: 1vh;
+    
+    color:rgb(224, 24, 231);
+    background-color: rgb(245, 215, 239);
+    text-align: center;
+    border-radius: 5px;
+
+ }
+
+ .pm{
+     font-size: x-large;
+     font-weight: 500;
+     width:8%;
+     height: 60%;
+     margin-top: 2vh;
+     text-align: center;
+     border-radius: 5px;
+     color:rgb(204, 59, 209);
+     background-color: rgb(240, 160, 224);
+     
+ }
+ 
+
+
+
+
+.box5{
+    width:100%;
+    border-radius: 5px;
+    background-color: white; 
+    height: 60vh;
+    background-image: url("./good\ night.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    position: relative;
+    bottom: 30px;
+
+
+    
+}
+select{
+    height:3vh;
+    
+}
+
+.box6{
+
+    transform: translateY(-20px);
+    background-color: rgb(228, 203, 228);
+    border-radius: 30px;
+    position: relative;
+    z-index: 2;
+    width:70%;
+    height:5vh;
+    margin: auto;
+    opacity:0.80;
+}
+ 
+.box7{
+    transform: translateY(-45px);
+    border-radius: 30px;
+    background-color: rgb(230, 210, 230);
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    width:60%;
+    height: 5vh;
+    opacity:0.50;
+
+}  
+
+.print_box{
+    width:450px;
+    height:100px;
+    border:2px solid black;
+    border-radius: 15px;
+    background-color: rgb(209, 96, 203);
+    margin-top: 20px;
+}
+
+.print_box p{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
